@@ -14,6 +14,7 @@ SAVE-LOAD **doesn't work**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **path** : Path to save file to.
 
 Description:
@@ -23,6 +24,7 @@ Serialize all objects to JSON, then save in a given location.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **path** : File path to load.
 
 Description:
@@ -35,6 +37,7 @@ draw
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **x** : X position of text box.
 - **x** : X position of text box.
 - **text** : Text to display.
@@ -56,6 +59,7 @@ ds/ ``ds_list_create_from_array``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **array** : Array of data.
 
 Description:
@@ -65,6 +69,7 @@ ds/ ``array_create_from_list``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **list** : List of data.
 
 Description:
@@ -74,6 +79,7 @@ Create array containing all members in the given ds_list.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **object** : Object to check.
 
 Description:
@@ -83,6 +89,7 @@ Quick way to check if object is not undefined, noone and exist (Use before calli
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **objects** : Objects to check (multiple up to 16 objects.)
 
 Description:
@@ -92,6 +99,7 @@ Check of all objects given existed.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **var** : Value to check.
 - **from** : First bound to check.
 - **to** Second bound to check.
@@ -105,6 +113,7 @@ Check if given value fall in between from and to.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **from** : Value to lerp from.
 - **to** : Value to lerp to.
 - **speed** : Lerping speed (higher = slower).
@@ -117,6 +126,7 @@ Lerp smoothly to a given value. Usually return back to ``from`` variable, for ex
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **string** : String to check.
 
 Description:
@@ -126,6 +136,7 @@ Remove all letter (except decimal point) from the string.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **str** : String to check.
 - **sta** : Starting string.
 
@@ -140,6 +151,7 @@ block
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **block** : Block to move.
 - **dx** : Move X.
 - **dy** : Move Y.
@@ -151,6 +163,7 @@ Move block recursively (move all connected block after it too.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **from_block** : Block to find next.
 - get_in_block : Get block in container (default false)
 
@@ -179,6 +192,7 @@ Find next block to execute. Most of the time it will just find the parent of the
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **block** : Block to check.
 
 Description:
@@ -188,6 +202,7 @@ Check all connector of that block for connection.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **x** : X position to draw.
 - **y** : Y position to draw.
 - **string** : Text to draw.
@@ -203,6 +218,7 @@ input evaluation/ ``shunting_yard``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **statement** : String to evaluate.
 
 Description:
@@ -212,6 +228,7 @@ input evaluation/ ``shunting_evaluate``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **output** : Output queue (from ``shunting_yard``)
 - **eval_stack** : Evaluated stack.
 - **variable_scope** : Evaluator scope array (``block_scope``).
@@ -223,6 +240,7 @@ input evaluation/ ``block_statement_eval``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **str** : Statement string.
 - **var_scope** : Block scope to search variable for.
 
@@ -233,6 +251,7 @@ input evaluation/ ``equation_eval``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **sign** : Symbol
 - **var** : Value array
 
@@ -243,6 +262,7 @@ input evaluation/ ``variable_assign_scope``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **var_str** : Variable string.
 - **val** : Value to assign to.
 
@@ -259,6 +279,7 @@ Search and collect all function blocks into ``function_map``.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **var_str** : Variable string.
 - **var_scope** : Block scope to search for.
 
@@ -269,6 +290,7 @@ Find value of variable in the given scope.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **val** : Value
 
 Description:
@@ -278,6 +300,7 @@ Convert value to string.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **x** : X position to show.
 - **y** : Y position to show.
 - **str** : String to check for.
@@ -299,6 +322,7 @@ actor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **object** : Actor to move.
 - **dx** : distance to move in X axis.
 - **dy** : distance to move in Y axis.
@@ -310,6 +334,7 @@ Move actor by dx, dy if that place is movable.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Arguments:
+
 - **actor** : Actor to show text.
 - **string** : String to display.
 

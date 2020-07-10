@@ -1,7 +1,7 @@
 Blocky DOC
 ######################################
 
-Welcome to blcoky (temp name), a block based progrmaming game.
+Welcome to blocky (temp name), a block based progrmaming game.
 
 .. toctree::
    :maxdepth: 2

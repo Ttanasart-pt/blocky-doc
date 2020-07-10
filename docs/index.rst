@@ -3,18 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Blocky's documentation!
+Blocky's documentation
 ==================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Getting started
+---------------------------
+- Install game maker studio 2.
+- Clone block-based-game folder.
+- Open block-based-game/ blocky.ypp in GMS2.
 
+Game maker studio 2 tips
+---------------------------
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
++--------------------+--------------+
+| Action             | Key          |
++====================+==============+
+| Search resource    | ctrl+t       |
+| Global text search | ctrl+shift+f |
++--------------------+--------------+

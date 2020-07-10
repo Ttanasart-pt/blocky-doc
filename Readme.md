@@ -1,2 +1,0 @@
-# Blocky doc wiki
-

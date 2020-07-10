@@ -39,7 +39,7 @@ draw
 Arguments:
 
 - **x** : X position of text box.
-- **x** : X position of text box.
+- **y** : Y position of text box.
 - **text** : Text to display.
 - **halign** : Text horizontal alignment.
 - **valign** : Text vertical alignment.

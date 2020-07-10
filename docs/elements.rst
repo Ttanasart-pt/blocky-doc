@@ -1,4 +1,4 @@
-Element
+Elements
 ###################
 
 .. toctree::

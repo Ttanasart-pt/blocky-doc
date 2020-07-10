@@ -51,6 +51,6 @@ important block variables
 | is_connect_after      | boolean        | has connector aftee it             |
 +-----------------------+----------------+------------------------------------+
 
-block_display (variable)
+``block_display`` (variable)
 *****************************
 Use {n} to refer to block_value[n]. Don't forget to assign default value for block_value[n] in create script too.

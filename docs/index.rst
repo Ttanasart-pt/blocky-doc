@@ -3,6 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :maxdepth: 2
+
+   index.rst
+   block.rst
+   executation.rst
+   howto.rst
+
 Blocky's documentation
 ==================================
 
@@ -19,5 +27,6 @@ Game maker studio 2 tips
 | Action             | Key          |
 +====================+==============+
 | Search resource    | ctrl+t       |
++--------------------+--------------+
 | Global text search | ctrl+shift+f |
 +--------------------+--------------+

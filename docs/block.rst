@@ -1,8 +1,13 @@
 Code block
-================
+###################
+
+.. toctree::
+   :maxdepth: 2
+
+   block.rst
 
 Concept
---------------
+*****************************
 
 - Each block create connector object before, after it.
 - On executation, block start user_event(0)
@@ -10,17 +15,17 @@ Concept
 - On finish, run user_event(2), and search for next block connected to connector.
 
 p_block (object)
------------------------
+*****************************
 
 Parent object of all blocks.
 
 o_block_temp (object)
--------------------------
+*****************************
 
 Template block, duplicate this object if you want to create new block.
 
 important block variables
----------------------------------
+*****************************
 
 +-----------------------+----------------+------------------------------------+
 | name                  | type           | description                        |
@@ -47,5 +52,5 @@ important block variables
 +-----------------------+----------------+------------------------------------+
 
 block_display (variable)
-------------------------------
+*****************************
 Use {n} to refer to block_value[n]. Don't forget to assign default value for block_value[n] in create script too.

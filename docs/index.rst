@@ -3,25 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Blocky's documentation
+##############################
+
 .. toctree::
    :maxdepth: 2
 
    index.rst
-   block.rst
-   executation.rst
-   howto.rst
-
-Blocky's documentation
-==================================
 
 Getting started
----------------------------
+**************************
 - Install game maker studio 2.
 - Clone block-based-game folder.
 - Open block-based-game/ blocky.ypp in GMS2.
 
 Game maker studio 2 tips
----------------------------
+*****************************
 
 +--------------------+--------------+
 | Action             | Key          |

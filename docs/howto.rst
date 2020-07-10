@@ -1,8 +1,13 @@
 How-to
-====================
+###################
+
+.. toctree::
+   :maxdepth: 2
+
+   howto.rst
 
 Create new block
---------------------
+*****************************
 - Duplicate o_block_temp.
 - Edit importatant variable.
 - Edit event_user(0, 1, 2).

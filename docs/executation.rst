@@ -17,16 +17,50 @@ Concept
     * user_event(2) run once when the block finish executing.
     * block_execute_next called for next block.
 
-block_scope (variable)
+``block_scope`` (variable)
 *****************************
 
-Block scope is an array contain block that has "variable_map" inside. block_scope is used to find variable value and target actor. 
+``block_scope`` is an array contain blocks that has ``variable_map`` inside. ``block_scope`` is used to find variable value and target actor. 
 
-block_execute_next (script)
-*****************************
+``block_execute_next``
+**********************************
 
-arguments
-- block : block to find.
+Argument:
+- block : Block to find.
 
-description
-A script to find next block to execute. This script shouldn't be edit unless to add new block with unconventional block flow.
+Description:
+Find next block to execute. Most of the time it will just find the parent of the ``connecting`` variable of ``conn_after``.
+.. note::
+    This script shouldn't be edit unless to add new block with unconventional block flow.
+
+``variable_get_scope`` 
+**********************************
+
+Argument:
+- var_str : Variable string.
+- var_scope : Block scope to search for.
+
+Description:
+Find value of variable in the given scope.
+.. note::
+    ``block_scope`` iterate from last member to first, and break when found. Thus "local" variable will return before global var.
+
+``variable_assign_scope`` 
+**********************************
+
+Argument:
+- var_str : Variable string.
+- val : Value to assign to.
+
+Description:
+Assign value to variable, create new variable if not existed. This script doesn't  have ``var_scope``, but use ``block_scope`` directly, will change in the next update. 
+
+``block_statement_eval`` 
+**********************************
+
+Argument:
+- str : Statement string.
+- var_scope : Block scope to search variable for.
+
+Description:
+Evaluate any equation. Return 0 if failed.  

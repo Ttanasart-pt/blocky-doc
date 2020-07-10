@@ -265,9 +265,6 @@ Arguments:
 Description:
 Find value of variable in the given scope.
 
-.. note::
-    ``block_scope`` iterate from last member to first, and break when found. Thus "local" variable will return before global var.
-
 ``to_string``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

@@ -22,14 +22,5 @@ Concept
 
 ``block_scope`` is an array contain blocks that has ``variable_map`` inside. ``block_scope`` is used to find variable value and target actor. 
 
-``block_execute_next``
-**********************************
-
-``variable_get_scope`` 
-**********************************
-
-``variable_assign_scope`` 
-**********************************
-
-``block_statement_eval`` 
-**********************************
+.. note::
+    ``block_scope`` iterate from last member to first, and break when found. Thus "local" variable will return before global var.

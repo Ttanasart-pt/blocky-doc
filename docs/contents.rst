@@ -11,3 +11,4 @@ Welcom to blcoky (temp name), a block based progrmaming game.
    executation.rst
    elements.rst
    howto.rst
+   reference.rst

@@ -5,6 +5,8 @@ Code block
    :maxdepth: 2
 
    block.rst
+   
+.. blocks:
 
 Concept
 *****************************

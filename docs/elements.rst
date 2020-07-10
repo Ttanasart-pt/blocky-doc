@@ -6,6 +6,8 @@ Elements
 
    elements.rst
 
+.. elements:
+
 Element, or level element, are object in the level that is not code block.
 
 Actors

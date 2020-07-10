@@ -25,44 +25,11 @@ Concept
 ``block_execute_next``
 **********************************
 
-Argument:
-- block : Block to find.
-
-Description:
-Find next block to execute. Most of the time it will just find the parent of the ``connecting`` variable of ``conn_after``.
-
-.. note::
-    This script shouldn't be edit unless to add new block with unconventional block flow.
-
 ``variable_get_scope`` 
 **********************************
-
-Argument:
-- var_str : Variable string.
-- var_scope : Block scope to search for.
-
-Description:
-Find value of variable in the given scope.
-
-.. note::
-    ``block_scope`` iterate from last member to first, and break when found. Thus "local" variable will return before global var.
 
 ``variable_assign_scope`` 
 **********************************
 
-Argument:
-- var_str : Variable string.
-- val : Value to assign to.
-
-Description:
-Assign value to variable, create new variable if not existed. This script doesn't  have ``var_scope``, but use ``block_scope`` directly, will change in the next update. 
-
 ``block_statement_eval`` 
 **********************************
-
-Argument:
-- str : Statement string.
-- var_scope : Block scope to search variable for.
-
-Description:
-Evaluate any equation. Return 0 if failed.  

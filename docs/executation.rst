@@ -30,6 +30,7 @@ Argument:
 
 Description:
 Find next block to execute. Most of the time it will just find the parent of the ``connecting`` variable of ``conn_after``.
+
 .. note::
     This script shouldn't be edit unless to add new block with unconventional block flow.
 
@@ -42,6 +43,7 @@ Argument:
 
 Description:
 Find value of variable in the given scope.
+
 .. note::
     ``block_scope`` iterate from last member to first, and break when found. Thus "local" variable will return before global var.
 

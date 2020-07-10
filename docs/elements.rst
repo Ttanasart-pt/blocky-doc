@@ -4,7 +4,7 @@ Elements
 .. toctree::
    :maxdepth: 2
 
-   element.rst
+   elements.rst
 
 Element, or level element, are object in the level that is not code block.
 
